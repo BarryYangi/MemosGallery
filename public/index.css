@@ -812,6 +812,27 @@ h1 {
   }
 }
 
+
+@media screen and (max-width: 768px) {
+ #container {
+  column-count: 1;
+  margin: 0 auto;
+  column-gap: 15px;
+  margin-top: 16px;
+} 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+ #container {
+  column-count: 2;
+  margin: 0 auto;
+  column-gap: 15px;
+  margin-top: 16px;
+} 
+}
+
+
+
 /* .text {
   position: absolute;
   line-height: 20px;
