@@ -4,29 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./public/index.css" />
-    <link rel="shortcut icon" href="./public/gallery.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/index.css" />
+    <link rel="shortcut icon" href="./public/gallery.svg" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <!-- <script src="./public/js/data.js"></script> -->
+    <script src="./public/js/memos.js"></script>
+    <link rel="stylesheet" href="./public/css/photo.css">
+    <script src="./public/js/imgStatus.min.js"></script>
+    <script src="./public/js/lately.min.js"></script>
+    <!-- <script src="./public/js/medium-zoom.min.js"></script> -->
     <link
       rel="stylesheet"
-      href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css"
-      media="print"
-      onload="this.media='all'"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
     />
-    <script src="./public/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <title>Gallery</title>
   </head>
   <body>
-    <h1 class="gallery">Barry's Gallery</h1>
-    <div id="container"></div>
-    <!-- <div class="text">
-      <p>谁能凭爱意</p>
+    <h1 class="gallery">Memos Gallery</h1>
+    <div class="bg"></div>
+    <div id="container" class="gallery-photos page">
+      <img class= "loadImg" src="./public/load.svg" alt="">
+    </div>
+    <div class="text">
+      <p>Scroll Down</p>
       <br />
-      <p>将富士山私有</p>
-      
-    </div> -->
+      <p>Open Album</p>
+      <br>
+      <p class="down">⬇️</p>
+      <div class="arrow"></div>
+    </div>
   </body>
 </html>
