@@ -26,6 +26,7 @@ body::-webkit-scrollbar {
   filter: sepia(30%) saturate(30%) hue-rotate(5deg);
   transition: transform 0.5s;
 }
+
 #container .loadImg {
   position: absolute;
   left: 0;
@@ -52,7 +53,7 @@ body::-webkit-scrollbar {
 
 @font-face {
   font-family: "Candyshop";
-  src: url(https://ipfs.4everland.xyz/ipfs/bafkreiaztv4ex5zlllmz5jqkrc3uouggdwfy6rrenemtdf3erlbd6bmfwm);
+  src: url(https://cdn.yct.ee/npm/barrycode/Candyshop.ttf);
   font-display: swap;
 }
 
@@ -855,7 +856,8 @@ h1 {
 }
 @font-face {
   font-family: "SmileySans";
-  src: url("https://cdn.yct.ee/npm/barrycode/SmileySans-Oblique.ttf.woff2") format("woff2")
+  src: url("https://cdn.yct.ee/npm/barrycode/SmileySans-Oblique.ttf.woff2") format("woff2");
+  font-display: swap;
 }
 .text {
   position: absolute;
@@ -959,4 +961,17 @@ h1 {
     opacity: 0;
     transform: translate(-10px, -10px);
   }
+}
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  font-family: "SmileySans", sans-serif;
+}
+footer:hover{
+  filter: none;
+}
+
+.hidden {
+  display: none !important;
 }

@@ -1,3 +1,4 @@
+console.log("\n %c MemosGallery v1.0.1 %c https://i.yct.ee/ \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
 photos();
 //查询所有用户api “https://memos.smitten.top/api/memo/all?tag=相册”
 // 函数
