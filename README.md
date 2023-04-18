@@ -29,7 +29,7 @@
 - [fancybox](https://github.com/fancyapps/fancybox)
 - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 
-### :sparkles: Usage
+### :rocket: Usage
 
 1. Clone this repository or download it at https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip, and then deploy it.
 
@@ -92,7 +92,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 5. No need to make any changes to the default settings, just click `Deploy`.
 6. China mainland may need to bind a custom domain to access Netlify.
 
-### :rocket: Tips
+### :sparkles: Tips
 
 Format of Posting Memos:
 

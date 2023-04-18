@@ -29,7 +29,7 @@
 - [fancybox](https://github.com/fancyapps/fancybox)
 - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 
-### :sparkles: 使用方法
+### :rocket: 使用方法
 
 1. `clone`本仓库或[下载](https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip)后部署 ：
 
@@ -92,7 +92,7 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 5. 按默认设置不用改动，直接点`Deploy`
 6. 中国大陆可能需要绑定一个自定义域名才能访问 Netlify
 
-### :rocket: 使用技巧
+### :sparkles: 使用技巧
 
 发布 Memos 时的格式：
 
