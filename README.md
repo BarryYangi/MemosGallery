@@ -24,10 +24,10 @@
 > • Mobile responsive design.  
 
 - [**Memos**](https://github.com/usememos/memos)
-- [Latelyjs](https://github.com/Tokinx/lately)
-- [Jquery](https://github.com/jquery/jquery)
-- [fancybox](https://github.com/fancyapps/fancybox)
-- [font-awesome](https://github.com/FortAwesome/Font-Awesome)
+- [Lately.js](https://github.com/Tokinx/lately)
+- [jQuery](https://github.com/jquery/jquery)
+- [Fancybox](https://github.com/fancyapps/fancybox)
+- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
 
 ### :rocket: Usage
 
