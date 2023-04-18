@@ -1,4 +1,4 @@
-<p align="center"><a href="https://usememos.com"><img height="64px" src="https://raw.githubusercontent.com/BarryYangi/Gallery/main/public/logo-full.webp" alt="✍️ memos" /></a></p>
+<p align="center"><a href="https://usememos.com"><img height="64px" src="https://raw.githubusercontent.com/BarryYangi/Gallery/master/public/logo-full.webp" alt="✍️ memos" /></a></p>
 
 <p align="center">Memos Top. 通过 Memos API 渲染的静态网页.</p>
 <p align="center">简单的 HTML、纯净的 CSS、原生的 JS。</p>
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/Gallery/main/screenshot.png"></a>
+  <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/Gallery/master/screenshot.png"></a>
 </p>
 
 中文 | [English](./README.md)
