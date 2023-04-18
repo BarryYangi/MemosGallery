@@ -19,7 +19,7 @@
 
 中文 | [English](./README.md)
 
-### 前端框架
+### :construction: 前端框架
 
 > • 移动端自适应  
 
@@ -29,7 +29,7 @@
 - [fancybox](https://github.com/fancyapps/fancybox)
 - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 
-### 使用方法
+### :sparkles: 使用方法
 
 1. `clone`本仓库或[下载](https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip)后部署 ：
 
@@ -66,13 +66,13 @@ git clone git@github.com:BarryYangi/MemosGallery.git
     <!-- <script src="./public/js/memos.js"></script> -->
 ```
 
-### 部署到 GitHub Pages
+### :zap: 部署到 GitHub Pages
 
 1. Fork 本仓库
 2. 按照 #[使用方法.2]() 设置自己的 API
 3. 转到自己的 `MemosGallery` 仓库的设置 - `Setting` - `Pages` - `Deploy from a branch` - `Branch(main/root)`
 
-### 部署到 Vercel
+### :zap: 部署到 Vercel
 
 1. Fork 本仓库
 2. 按照 #[使用方法.2]() 设置自己的 API
@@ -81,7 +81,7 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 5. 按默认设置不用改动，直接点`Deploy`
 6. 中国大陆可能需要绑定一个自定义域名才能访问 Vercel
 
-### 部署到 Netlify
+### :zap: 部署到 Netlify
 
 > Demo: <https://gallery.yct.ee>
 
@@ -92,7 +92,7 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 5. 按默认设置不用改动，直接点`Deploy`
 6. 中国大陆可能需要绑定一个自定义域名才能访问 Netlify
 
-### 使用技巧
+### :rocket: 使用技巧
 
 发布 Memos 时的格式：
 
@@ -125,7 +125,7 @@ GLWT（Good Luck With That，祝你好运）公共许可证
                 祝你好运公共许可证
             复制、分发和修改的条款和条件
 
-0 ：在不导致作者被指责或承担责任的情况下，你可以做任何你想
+在不导致作者被指责或承担责任的情况下，你可以做任何你想
 要做的事情。
 
 无论是在合同行为、侵权行为或其它因使用本软件产生的情形，作

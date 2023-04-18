@@ -17,9 +17,9 @@
   <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/screenshot.png"></a>
 </p>
 
-[中文]((./README_cn.md)) | English
+[中文](./README_cn.md) | English
 
-### :construction:WebStack
+### :construction: WebStack
 
 > • Mobile responsive design.  
 
@@ -29,7 +29,7 @@
 - [fancybox](https://github.com/fancyapps/fancybox)
 - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 
-### :wrench:Usage
+### :sparkles: Usage
 
 1. Clone this repository or download it at https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip, and then deploy it.
 
@@ -66,7 +66,7 @@ In the `public` directory, replace it with your own icon or loading animation.
     <!-- <script src="./public/js/memos.js"></script> -->
 ```
 
-### :zap:Deploy to GitHub Pages
+### :zap: Deploy to GitHub Pages
 
 1. Fork this.
 2. Follow the instructions in #[Usage Guide.2]() to configure your API.
@@ -81,7 +81,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 5. No need to make any changes to the default settings, just click `Deploy`.
 6. China mainland may need to bind a custom domain to access Vercel.
 
-### :zap:Deploy to Netlify
+### :zap: Deploy to Netlify
 
 > Demo: <https://gallery.yct.ee>
 
@@ -92,7 +92,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 5. No need to make any changes to the default settings, just click `Deploy`.
 6. China mainland may need to bind a custom domain to access Netlify.
 
-### :rocket:Tips
+### :rocket: Tips
 
 Format of Posting Memos:
 
@@ -125,7 +125,7 @@ GLWT（Good Luck With That，祝你好运）公共许可证
                 祝你好运公共许可证
             复制、分发和修改的条款和条件
 
-0 ：在不导致作者被指责或承担责任的情况下，你可以做任何你想
+在不导致作者被指责或承担责任的情况下，你可以做任何你想
 要做的事情。
 
 无论是在合同行为、侵权行为或其它因使用本软件产生的情形，作
