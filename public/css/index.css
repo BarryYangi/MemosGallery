@@ -8,7 +8,7 @@ body a img {
   column-gap: 15px;
   margin-top: 16px;
 }
-body{
+body {
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -25,7 +25,24 @@ body::-webkit-scrollbar {
   box-shadow: 0 10px 50px #5f2f1182;
   filter: sepia(30%) saturate(30%) hue-rotate(5deg);
   transition: transform 0.5s;
+  /* animation: imgFloat 5s ease-in-out infinite;
+  -webkit-animation: imgFloat 5s ease-in-out infinite; */
 }
+/* 
+@keyframes imgFloat {
+  0% {
+    transform: scale(1);
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: scale(0.99);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(5deg);
+  }
+} */
 
 #container .loadImg {
   position: absolute;
@@ -37,7 +54,7 @@ body::-webkit-scrollbar {
   height: 100%;
   margin: auto;
 }
-.blur{
+.blur {
   filter: blur(3px);
   transition: filter -1.5s ease;
 }
@@ -68,6 +85,8 @@ body {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   /* background: var(--vp-c-brand); */
 }
 
@@ -840,10 +859,9 @@ h1 {
     column-gap: 15px;
     margin-top: 16px;
   }
-  .text{
+  .text {
     display: none;
   }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
@@ -856,7 +874,8 @@ h1 {
 }
 @font-face {
   font-family: "SmileySans";
-  src: url("https://cdn.yct.ee/npm/barrycode/SmileySans-Oblique.ttf.woff2") format("woff2");
+  src: url("https://cdn.yct.ee/npm/barrycode/SmileySans-Oblique.ttf.woff2")
+    format("woff2");
   font-display: swap;
 }
 .text {
@@ -873,11 +892,11 @@ h1 {
   animation: show 4.5s cubic-bezier(0.74, -0.1, 0.86, 0.83) forwards;
   font-family: "SmileySans", sans-serif;
 }
-.bg{
+.bg {
   height: 100%;
   width: 100%;
 }
-.down{
+.down {
   color: var(--vp-c-brand-next);
   font-size: 130px;
   font-weight: 600;
@@ -916,7 +935,7 @@ h1 {
   100% {
     opacity: 1;
     /* position:absolute; */
-    top:400px;
+    top: 400px;
   }
 }
 
@@ -968,7 +987,7 @@ footer {
   text-align: center;
   font-family: "SmileySans", sans-serif;
 }
-footer:hover{
+footer:hover {
   filter: none;
 }
 
