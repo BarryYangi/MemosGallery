@@ -1,7 +1,7 @@
 <p align="center"><a href="https://usememos.com"><img height="64px" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/public/logo-full.webp" alt="✍️ memos" /></a></p>
 
-<p align="center">Memos Gallery. Static web page rendered through Memos API.</p>
-<p align="center">Simple HTML, clean CSS, native JS.</p>
+<p align="center">Memos Gallery.A static page rendered with the Memos API.</p>
+<p align="center">Simple HTML,Pure CSS,Native JS.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Memos-Gallery-orange" />
@@ -19,7 +19,7 @@
 
 [中文]((./README_cn.md)) | English
 
-### Front-end framework.
+### :construction:WebStack
 
 > • Mobile responsive design.  
 
@@ -29,7 +29,7 @@
 - [fancybox](https://github.com/fancyapps/fancybox)
 - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 
-### Instructions for use
+### :wrench:Usage
 
 1. Clone this repository or download it at https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip, and then deploy it.
 
@@ -49,7 +49,7 @@ Replace the deployment address of "memos" in the file `memos.js`.
     ...}
 ```
 
-3. Website icon and loading animation (*optional*)
+3. Website icon & loading animation (*optional*)
 
 In the `public` directory, replace it with your own icon or loading animation.
 
@@ -58,7 +58,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 
 4. Upload
 
-- Upload the `index.html` file in the `public` directory and all files in the directory to the root directory of the website.
+- Upload the `index.html` file in the `public` directory and all files in the directory to the root directory of the website.Enjoy!
 - If you want to display images that are not in memos, please comment out the import statement of `memos.js` in the `index.html` page, uncomment the import statement of `data.js`, and add the image links to the `data.json` file in the root directory in the specified format.
 
 ```html
@@ -66,13 +66,13 @@ In the `public` directory, replace it with your own icon or loading animation.
     <!-- <script src="./public/js/memos.js"></script> -->
 ```
 
-### Deploy to GitHub Pages
+### :zap:Deploy to GitHub Pages
 
-1. Fork this repository.
+1. Fork this.
 2. Follow the instructions in #[Usage Guide.2]() to configure your API.
 3. Go to the settings of your own `MemosGallery` repository - `Setting` - `Pages` - `Deploy from a branch` - `Branch(main/root)`
 
-### Deploy to Vercel
+### :zap:Deploy to Vercel
 
 1. Fork this repository.
 2. Follow the instructions in #[Usage Guide.2]() to configure your API.
@@ -81,7 +81,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 5. No need to make any changes to the default settings, just click `Deploy`.
 6. China mainland may need to bind a custom domain to access Vercel.
 
-### Deploy to Netlify
+### :zap:Deploy to Netlify
 
 > Demo: <https://gallery.yct.ee>
 
@@ -92,7 +92,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 5. No need to make any changes to the default settings, just click `Deploy`.
 6. China mainland may need to bind a custom domain to access Netlify.
 
-### Using Techniques
+### :rocket:Tips
 
 Format of Posting Memos:
 
