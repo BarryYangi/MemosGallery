@@ -58,8 +58,8 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 
 4. 上传
 
-上传 `index.html` 文件 `public` 目录及目录中的所有文件到网站根目录。
-如想展示非memos中的图片，请注释掉`index.html`页面中的`memos.js`引入项，取消`data.js`引入项注释,按格式添加图片链接到根目录下`data.json`中即可。
+- 上传 `index.html` 文件 `public` 目录及目录中的所有文件到网站根目录。
+- 如想展示非memos中的图片，请注释掉`index.html`页面中的`memos.js`引入项，取消`data.js`引入项注释,按格式添加图片链接到根目录下`data.json`中即可。
 
 ```html
     <script src="./public/js/data.js"></script>
@@ -103,15 +103,9 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 ![2023-04-17 AI绘制](https://cdn.yct.ee/gh/BarryYangi/ObsStaticData@main/obsidian/1681536694000vdr30v.png)
 
 ```
-如果不想要图片显示在memos上的话放在代码块内即可，如下：
-```
-#相册 
-```
-![2023-04-17 壁纸](https://cdn.yct.ee/gh/BarryYangi/ObsStaticData@main/obsidian/16809343100005b75gn.jpg)
-![2023-04-17 AI绘制](https://cdn.yct.ee/gh/BarryYangi/ObsStaticData@main/obsidian/1681536694000vdr30v.png)
-```
 
-```
+如果不想要图片显示在memos上的话将链接放在代码块内即可。
+
 
 
 
