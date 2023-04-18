@@ -1,4 +1,4 @@
-<p align="center"><a href="https://usememos.com"><img height="64px" src="https://raw.githubusercontent.com/BarryYangi/Gallery/master/public/logo-full.webp" alt="✍️ memos" /></a></p>
+<p align="center"><a href="https://usememos.com"><img height="64px" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/public/logo-full.webp" alt="✍️ memos" /></a></p>
 
 <p align="center">Memos Top. 通过 Memos API 渲染的静态网页.</p>
 <p align="center">简单的 HTML、纯净的 CSS、原生的 JS。</p>
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/Gallery/master/screenshot.png"></a>
+  <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/screenshot.png"></a>
 </p>
 
 中文 | [English](./README.md)
@@ -31,10 +31,10 @@
 
 ### 使用方法
 
-1. `clone`本仓库或[下载](https://github.com/BarryYangi/memos.top/archive/refs/heads/main.zip)后部署 ：
+1. `clone`本仓库或[下载](https://github.com/BarryYangi/MemosGallery/archive/refs/heads/master.zip)后部署 ：
 
 ```bash
-git clone git@github.com:BarryYangi/memos.top.git
+git clone git@github.com:BarryYangi/MemosGallery.git
 ```
 
 2. 设置
