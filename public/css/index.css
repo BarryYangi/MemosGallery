@@ -955,6 +955,7 @@ h1 {
   border-top: none;
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
+  cursor: pointer;
 }
 
 .arrow:before {
@@ -993,4 +994,30 @@ footer:hover {
 
 .hidden {
   display: none !important;
+}
+
+.btn-back-to-top{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+  z-index: 999;
+  cursor: pointer;
+  display: none; /* 默认隐藏 */
+}
+.btn-back-to-top i{
+  font-size: 20px;
+  color: var(--vp-c-brand-light);
+}
+
+.btn-back-to-top:hover{
+  background-color: #222;
+  transform: scale(1.1);
 }

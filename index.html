@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="./public/css/index.css" />
     <link rel="shortcut icon" href="./public/gallery.svg" type="image/x-icon" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
     <!-- <script src="./public/js/data.js"></script> -->
     <script src="./public/js/memos.js"></script>
     <link rel="stylesheet" href="./public/css/photo.css">
     <script src="./public/js/imgStatus.min.js"></script>
     <script src="./public/js/lately.min.js"></script>
-    <!-- <script src="./public/js/medium-zoom.min.js"></script> -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
@@ -26,18 +24,22 @@
   </head>
   <body>
     <h1 class="gallery">Memos Gallery</h1>
-    <div class="bg"></div>
+    <div class="bg">
+      <div class="text">
+        <p>Scroll Down</p>
+        <br />
+        <p>Open Album</p>
+        <br>
+        <p class="down">⬇️</p>
+        <div class="arrow"></div>
+      </div>
+    </div>
     <div id="container" class="gallery-photos page">
       <img class= "loadImg" src="./public/load.svg" alt="">
     </div>
-    <div class="text">
-      <p>Scroll Down</p>
-      <br />
-      <p>Open Album</p>
-      <br>
-      <p class="down">⬇️</p>
-      <div class="arrow"></div>
-    </div>
+    <div id="back-to-top" class="btn-back-to-top">
+      <i class="fa fa-angle-up"></i>
+  </div>
     <footer class="markdown-body footer blur">
       <p>Copyright @
           <script>

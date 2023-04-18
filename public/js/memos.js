@@ -1,7 +1,10 @@
-console.log("\n %c MemosGallery v1.0.1 %c https://i.yct.ee/ \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
+console.log(
+  "\n %c MemosGallery v1.0.1 %c https://i.yct.ee/ \n",
+  "color: #fadfa3; background: #030307; padding:5px 0;",
+  "background: #fadfa3; padding:5px 0;"
+);
 photos();
 //查询所有用户api “https://memos.smitten.top/api/memo/all?tag=相册”
-// 函数
 function photos() {
   fetch("https://memos.smitten.top/api/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
@@ -32,13 +35,11 @@ function photos() {
       window.Lately && Lately.init({ target: ".photo-time" });
     })
     .catch();
-      // 滚动事件处理
+
   $(window).scroll(function () {
-    // 遍历所有带有“lazyload”类且处于可见范围内的图片
     $(".photo-img:visible").each(function () {
       var img = $(this);
       if (img.offset().top < $(window).scrollTop() + $(window).height()) {
-        // 加载图片
         img.attr("src", img.attr("data-lazyload"));
       }
     });
@@ -46,3 +47,24 @@ function photos() {
     $(".text").remove();
   });
 }
+
+$(document).ready(function () {
+  $(".arrow").click(function(){
+    $(".bg").remove();
+    $(".text").remove();
+    $(window).scroll();
+  })
+  $(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+    if (scrollTop > 1000) {
+      $("#back-to-top").fadeIn();
+    } else {
+      $("#back-to-top").fadeOut();
+    }
+  });
+
+  $("#back-to-top").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 800);
+    return false;
+  });
+});
