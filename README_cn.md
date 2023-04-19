@@ -16,6 +16,9 @@
 <p align="center">
   <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/screenshot.png"></a>
 </p>
+<p align="center">
+  <a href="https://gallery.yct.ee/" target="_blank"><img alt="Memos Gallery" src="https://raw.githubusercontent.com/BarryYangi/MemosGallery/master/screenshot.gif"></a>
+</p>
 
 中文 | [English](./README.md)
 
