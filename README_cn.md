@@ -97,7 +97,7 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 
 ### :sparkles: 使用技巧
 
-发布 Memos 时的格式：
+**发布 Memos 时的格式：**
 
 ```
 #相册 
@@ -108,6 +108,11 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 ```
 
 如果不想要图片显示在memos上的话将链接放在代码块内即可。
+
+**组件化使用：**
+
+如果你想要在react中以组件化的使用Gallery，可以通过安装[react-visual-grid](https://github.com/prabhuignoto/react-visual-grid)来实现。
+参考代码片段:[Gallery.tsx](https://github.com/BarryYangi/Admin-Dashboard-React/blob/master/src/components/Gallery/Gallery.tsx)
 
 
 

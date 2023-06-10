@@ -97,7 +97,7 @@ In the `public` directory, replace it with your own icon or loading animation.
 
 ### :sparkles: Tips
 
-Format of Posting Memos:
+**Format of Posting Memos:**
 
 ```
 #相册 
@@ -108,6 +108,11 @@ Format of Posting Memos:
 ```
 
 If you don't want the image to be displayed in memos, just put the link in a code block.
+
+**Component-based Usage:**
+
+If you want to use the Gallery in a component-based way in React, you can achieve this by installing [react-visual-grid](https://github.com/prabhuignoto/react-visual-grid).
+You can refer to the code snippet in [Gallery.tsx](https://github.com/BarryYangi/Admin-Dashboard-React/blob/master/src/components/Gallery/Gallery.tsx) for guidance.
 
 
 
