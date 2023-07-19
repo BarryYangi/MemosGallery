@@ -1,18 +1,17 @@
 console.log(
-  "\n %c MemosGallery v1.0.1 %c https://i.yct.ee/ \n",
+  "\n %c MemosGallery v1.0.2 %c https://i.yct.ee/ \n",
   "color: #fadfa3; background: #030307; padding:5px 0;",
   "background: #fadfa3; padding:5px 0;"
 );
 photos();
-//查询所有用户api “https://memos.smitten.top/api/memo/all?tag=相册”
 function photos() {
-  fetch("https://memos.smitten.top/api/memo?creatorId=1&tag=相册")
+  fetch("https://memos.smitten.top/api/v1/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
     .then((data) => {
       // 记得修改memos地址
       let html = "",
         imgs = [];
-      data.data.forEach((item) => {
+      data.forEach((item) => {
         imgs = imgs.concat(item.content.match(/\!\[.*?\]\(.*?\)/g));
       });
       imgs.forEach((item) => {

@@ -46,7 +46,7 @@ git clone git@github.com:BarryYangi/MemosGallery.git
 
 ```javascript
   function photos() {
-  fetch("https://memos.smitten.top/api/memo?creatorId=1&tag=相册")
+  fetch("https://memos.smitten.top/api/v1/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
     
     ...}
