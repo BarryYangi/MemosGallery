@@ -5,6 +5,8 @@ console.log(
 );
 photos();
 function photos() {
+  // latest api url: https://memos.smitten.top/api/v1/memo?filter=/api/v1/memos?filter=creator == 'users/1' && visibilities == ['PUBLIC'] && tag_search == ["相册"]
+  // https://memos.smitten.top/api/v1/memo?filter=/api/v1/memos?filter=creator+%3D%3D+%27users%2F1%27+%26%26+visibilities+%3D%3D+%5B%27PUBLIC%27%5D+%26%26+tag_search+%3D%3D+%5B%22%E7%9B%B8%E5%86%8C%22%5D
   fetch("https://memos.smitten.top/api/v1/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
     .then((data) => {
